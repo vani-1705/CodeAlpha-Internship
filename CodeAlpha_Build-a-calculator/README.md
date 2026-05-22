@@ -70,9 +70,9 @@ Media queries are used for better responsiveness across different screen sizes.
 
 ----
 # ⌨️ Keyboard Support
+
 Key
 Action
-
 0-9
 Numbers
 
