@@ -68,13 +68,10 @@ Tablets
 Mobile devices
 Media queries are used for better responsiveness across different screen sizes.
 
-----
+---
+
 # ⌨️ Keyboard Support
 
-Key
-Action
-0-9
-Numbers
 +
 Addition
 -
@@ -91,7 +88,7 @@ Esc
 Clear
 %
 Percentage
-
+0-9 Numbers
 ---
 # 🚀 Future Improvements
 Add scientific calculator functions
