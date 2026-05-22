@@ -89,7 +89,9 @@ Clear
 %
 Percentage
 0-9 Numbers
+
 ---
+
 # 🚀 Future Improvements
 Add scientific calculator functions
 Add calculation history
@@ -98,6 +100,7 @@ Add theme customization
 Add sound effects for buttons
 
 ---
+
 # 📚 Learning Outcomes
 This project helped in understanding:
 DOM Manipulation
@@ -108,15 +111,20 @@ Responsive UI Design
 Keyboard Event Handling
 
 ---
+
 # 👩‍💻 Author
 Vani Vasantha Laxmi Yepparika
 
 Frontend Development Internship Project
 
 ---
+
 # 📄 License
 This project is licensed under the MIT License.
 
 ---
+
 # 🧮 Conclusion
 Calculator is a beginner-friendly frontend project focused on building strong HTML, CSS, and JavaScript fundamentals through a functional and visually appealing calculator web application.
+
+---
