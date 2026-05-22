@@ -1,7 +1,13 @@
 # CodeAlpha_Build-a-Calculator
 
 ---
+# Live Demo
+## netlify
+https://codealpha-build-a-calculator.netlify.app/
+## vercel
+https://codealphabuild-a-calculator.vercel.app/
 
+--
 # 🧮 Calculator — Web Application
 A responsive calculator web application created using HTML, CSS, and JavaScript that performs basic arithmetic operations with a modern user interface and keyboard support.
 
