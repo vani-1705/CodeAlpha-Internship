@@ -75,7 +75,6 @@ Key
 Action
 0-9
 Numbers
-
 +
 Addition
 -
