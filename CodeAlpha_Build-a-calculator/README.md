@@ -72,6 +72,7 @@ Media queries are used for better responsiveness across different screen sizes.
 
 # ⌨️ Keyboard Support
 
+```text
 +
 Addition
 -
@@ -89,7 +90,7 @@ Clear
 %
 Percentage
 0-9 Numbers
-
+```
 ---
 
 # 🚀 Future Improvements
