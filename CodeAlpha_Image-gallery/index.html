@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Image Gallery</title>
+
+ <!-- Google Fonts -->
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+ <!-- External CSS -->
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER-->
+   <header>
+    <h1> Image Gallery 🖼 </h1>
+    <p> Discover beautiful moments </p>
+
+    <!-- Search Bar -->
+    <div class="search-wrap">
+    <input type="text" id="searchInput" placeholder="Search images...">
+    </div>
+   </header>
+
+ <!-- CONTROLS: Categories + Filters-->
+   <div class="controls">
+
+    <!-- Category Buttons -->
+    <div class="categories" id="categories">
+      <button class="cat-btn active" data-cat="all"> All </button>
+      <button class="cat-btn" data-cat="arts"> Arts </button>
+      <button class="cat-btn" data-cat="animals"> Animals </button>
+      <button class="cat-btn" data-cat="birds"> Birds </button>
+      <button class="cat-btn" data-cat="cartoons"> Cartoons </button>
+      <button class="cat-btn" data-cat="children"> Children </button>
+      <button class="cat-btn" data-cat="food"> Food </button>
+      <button class="cat-btn" data-cat="houses"> Houses </button>
+      <button class="cat-btn" data-cat="nature"> Nature </button>
+      <button class="cat-btn" data-cat="people"> People </button>
+      <button class="cat-btn" data-cat="temples"> Temples </button>
+    </div>
+
+    <!-- Image Filter Buttons -->
+    <span class="filters-label">Filters:</span>
+    <div class="filters" id="galleryFilters">
+      <button class="filter-btn active" data-filter="none">Original</button>
+      <button class="filter-btn" data-filter="f-bw">B&amp;W</button>
+      <button class="filter-btn" data-filter="f-warm">Warm</button>
+      <button class="filter-btn" data-filter="f-cool">Cool</button>
+      <button class="filter-btn" data-filter="f-vivid">Vivid</button>
+      <button class="filter-btn" data-filter="f-fade">Fade</button>
+      <button class="filter-btn" data-filter="f-dramatic">Dramatic</button>
+    </div>
+
+  </div>
+
+   <!-- GALLERY GRID (Images are injected by JS) -->
+   <div class="gallery" id="gallery"></div>
+
+   <!-- Load More Button -->
+   <div class="load-more-wrap">
+    <button class="load-more-btn" id="loadMoreBtn">
+      Load More
+       <!-- Spinner icon (shown while loading) -->
+       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+       <path d="M21 12a9 9 0 11-6.219-8.56"/>
+       </svg>
+    </button>
+   </div>
+
+   <!-- LIGHTBOX (Popup) -->
+   <div class="lightbox" id="lightbox">
+
+   <!-- Dark backdrop — click to close -->
+    <div class="lb-backdrop" id="lbBackdrop"></div>
+
+   <!-- Lightbox content box -->
+   <div class="lb-box">
+
+   <!-- Main image area -->
+   <div class="lb-img-wrap">
+   <img id="lbImg" src="" alt="">
+
+   <!-- Close button -->
+   <button class="lb-close" id="lbClose">✕</button>
+
+    <!-- Prev / Next arrows -->
+    <button class="lb-nav lb-prev" id="lbPrev">&#8592;</button>
+    <button class="lb-nav lb-next" id="lbNext">&#8594;</button>
+    </div>
+
+    <!-- Counter: "3 / 12 — Title" -->
+    <div class="lb-counter" id="lbCounter"></div>
+
+    <!-- Filter strip inside lightbox -->
+    <div class="lb-filters">
+     <button class="lb-filter-btn active" data-lbfilter="none">Original</button>
+     <button class="lb-filter-btn" data-lbfilter="f-bw">B&amp;W</button>
+     <button class="lb-filter-btn" data-lbfilter="f-warm">Warm</button>
+     <button class="lb-filter-btn" data-lbfilter="f-cool">Cool</button>
+     <button class="lb-filter-btn" data-lbfilter="f-vivid">Vivid</button>
+     <button class="lb-filter-btn" data-lbfilter="f-fade">Fade</button>
+     <button class="lb-filter-btn" data-lbfilter="f-dramatic">Dramatic</button>
+    </div>
+
+     <!-- Thumbnail strip -->
+     <div class="lb-thumbs" id="lbThumbs"></div>
+
+     </div> <!-- /.lb-box -->
+     </div>   <!-- /.lightbox -->
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+ 
+</body>
+</html>
